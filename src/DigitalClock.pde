@@ -265,5 +265,5 @@ void loop(void)
 {
   unsigned long t = (unsigned long)(time/1000);
   
-  DisplayTime((byte)(t / 3600), (byte)((t / 60) % 60), (byte) t % 60);
+  DisplayTime((byte)(t / 3600), (byte)((t / 60) % 60), (byte)(t % 60));
 }
